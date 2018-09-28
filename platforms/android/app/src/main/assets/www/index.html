@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Game</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="icon" type="image/png" href="img/icon.png" />
+        <link rel="icon" type="image/png" href="img/icon.ico" />
+        <style>
+             @font-face{
+                font-family: army;
+                src: url(fonts/army.otf);
+            }
+           body{
+               /*background-image: url(img/map.jpg);*/
+               margin: 0;}
+           #hud{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                float:left;
+                bottom:0px;
+                background-color: rgba(175,175,175,0.5);
+                font-weight: normal;
+                font-family: army,arial, sans-serif;
+                font-size: 1.15em;
+            }
+            
+            @media (min-width: 600px){
+                 #hud{font-size: 2em;}
+            }
+        </style>
+        <script src="js/three.js"></script>
+        <script src="js/OBJLoader.js"></script>
+        <script src="js/MTLLoader.js"></script>
+        <script src="js/game.js"></script>
+    </head>
+    <body><div id="hud">Pontos:0</div>
+    </body>
+</html>

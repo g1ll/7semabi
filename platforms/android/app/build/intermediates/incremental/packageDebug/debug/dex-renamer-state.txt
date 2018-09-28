@@ -1,0 +1,4 @@
+#Thu Sep 27 21:43:09 BRT 2018
+base.0=/media/Dados/Projetos/cordova/7semabi/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/media/Dados/Projetos/cordova/7semabi/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
